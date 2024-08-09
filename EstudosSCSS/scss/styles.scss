@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+$bg-color: #eee;
+$title-background: #333;
+$main-color: #fff;
+
+body {
+  font-family: "Inter", sans-serif;
+  align-items: start;
+}
+.container {
+  background-color: $bg-color;
+  padding: 20px;
+  text-align: center;
+
+  #title{
+    background-color: $title-background;
+    color: $main-color;
+    padding: 10px;
+  }
+}
+img{
+    max-width: 3%;
+    margin: 10px;
+}img:hover{
+    opacity: 75%;
+}
